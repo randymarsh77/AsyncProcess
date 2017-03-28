@@ -56,7 +56,7 @@ public extension ProcessConfig
 		return AsyncProcess(launchCommand)
 	}
 
-	fileprivate func verify() throws {
+	public func verify() throws {
 		guard (try? URL(fileURLWithPath: executableUrl.path).checkResourceIsReachable()) != nil else {
 			throw ProcessConfigError.UnreachablePath(path: executableUrl.path)
 		}
