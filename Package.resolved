@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Async",
+        "repositoryURL": "https://github.com/randymarsh77/async",
+        "state": {
+          "branch": "master",
+          "revision": "a72c45fd19d12c19b6994ffed49875938de85927",
+          "version": null
+        }
+      },
+      {
+        "package": "CAsync",
+        "repositoryURL": "https://github.com/randymarsh77/casync",
+        "state": {
+          "branch": "master",
+          "revision": "e1803caaadaf1e7442e222544aa7cbb5daa42b5b",
+          "version": null
+        }
+      },
+      {
+        "package": "Gloss",
+        "repositoryURL": "https://github.com/hkellaway/gloss",
+        "state": {
+          "branch": null,
+          "revision": "efd25964891ae8a9cfbe2345628ad02fcb9a105c",
+          "version": "3.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

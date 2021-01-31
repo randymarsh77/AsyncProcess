@@ -51,12 +51,12 @@ public final class ProcessConfig: Glossy
 
 public extension ProcessConfig
 {
-	public func createProcess() -> AsyncProcess
+	func createProcess() -> AsyncProcess
 	{
 		return AsyncProcess(launchCommand)
 	}
 
-	public func verify() throws {
+	func verify() throws {
 		guard (try? URL(fileURLWithPath: executableUrl.path).checkResourceIsReachable()) != nil else {
 			throw ProcessConfigError.UnreachablePath(path: executableUrl.path)
 		}
